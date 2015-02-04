@@ -34,8 +34,7 @@ public class Main {
             case 2:
                 System.out.println("Binary to Decimal Conversion");
                 System.out.println("Please enter the binary number you want to convert:");
-                String bnr;
-                bnr = input.nextLine();
+                String bnr = input.nextLine();
                 Bin2Dec(bnr);
                 break;
             case 0:
